@@ -1,6 +1,5 @@
-
 body {
-  background: url("https://r4.wallpaperflare.com/wallpaper/517/212/894/abstract-computer-dark-pattern-wallpaper-48262d3840c0cc58d09cd17ee8d2a45a.jpg");
+  background: url("https://r4.wallpaperflare.com/wallpaper/142/751/831/landscape-anime-digital-art-fantasy-art-wallpaper-9b468c3dc3116f4905f43bc9cddc0cf0.jpg");
 
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -20,13 +19,13 @@ body {
   while the background image is loading */
   background-color: #464646;
 
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(12px);
 
-  /* height: 100vh;
-  width: 100%; */
-  
+  font-family: poppins;
+
+  height: 100vh;
+  width: 100%;
 }
-
 
 * {
   margin: 0;
@@ -34,12 +33,17 @@ body {
   box-sizing: border-box;
 }
 
+
 .bg {
   background-color: rgba(50, 20, 51, 0.397);
 }
 
 .navbar {
   padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .navbar-toggler:focus {
@@ -57,14 +61,37 @@ nav .nav-item a:hover {
 }
 
 #home {
-    color: rgb(61, 33, 216) !important;
-  }
+  color: rgb(61, 33, 216) !important;
+}
 
+#alvin {
+  color: white;
+  text-align: center;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5em;
+}
 
+#alvin2{
 
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+}
 
+#alvin3{
+  color: white;
+  font-size: 2em;
+  /* text-align: center; */
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  margin-top: 5%;
 
-
-
-
+}
