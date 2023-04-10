@@ -4,9 +4,6 @@
 #### By **Alvin Kenyagah**
 ## Description
 My programming portfolio to showcase projects I have worked on. https://alvinkenyagah.github.io/LANDINGPAGE/
-## Setup/Installation Requirements
-* Browser.
-* An internet connection.
 ## Known Bugs
 Currently no bugs have been detected. 
 ## Technologies Used
